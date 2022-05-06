@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.chatbox{
+    width: 20%;
+}
+
+*, html{
+    --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #581B98 0.52%, #9C1DE7 100%);
+    --primaryBoxShadow: 0px -10px 15px rgba(0,0,0,0.1);
+    --secondaryBoxShadow: 0px 10px 15px rgba(0,0,0,0.1);
+    --light: 300;
+    --regular: 400;
+    --semiBold: 600;
+    --extraLight: 300;
+    --italic: 300 italic;
+    --primary: #581B98;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    background: #F1F1F1;
+}
+
+.chatbox__support {
+    margin: 0 0;
+    height: 550px;
+    width: 300px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2) ;
+    border-radius: 10px;
+}
+
+.chatbox__header {
+    width: 100%;
+    height: 10%;
+    border-radius: 6px;
+    background: #3B82F6;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.chatbox__image--header{
+    margin-right: 10px;
+}
+
+.chatbox__heading--header{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.chatbox__messages {
+    padding: 0 20px;
+}
+
+.chatbox__button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chatbox__button button,
+.chatbox__button button:focus,
+.chatbox__button button:visited{
+    padding: 10px;
+    background: #FFF;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+
+#botgif{
+    width: 80%;
+  }
+
+#botgif{
+    width: 45%;
+  }
+  
+  /* Make container slightly rounded. Set height and width to 90 percent of .bots' */
+  #container {
+    height: 90%;
+    border-radius: 6px;
+    width: 90%;
+    background: #F3F4F6;
+  }
+  
+  /* Style header section */
+  #header {
+    width: 90%;
+    height: 10%;
+    border-radius: 6px;
+    background: #3B82F6;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style body */
+  #body {
+    width: 90%;
+    height: 75%;
+    background-color: #F3F4F6;
+    overflow-y: auto;
+    
+  }
+  
+  /* Style container for user messages */
+  .userSection {
+    width: 100%;
+  }
+  
+  /* Seperates user message from bot reply */
+  .seperator {
+    width: 100%;
+    height: 50px;
+  }
+  
+  /* General styling for all messages */
+  .messages {
+    max-width: 60%;
+    margin: .5rem;
+    font-size: 0.75rem;
+    padding: .5rem;
+    border-radius: 7px;
+  }
+  
+  /* Targeted styling for just user messages */
+  .user-message {
+    margin-top: 1rem;
+    text-align: right;
+    background: #3B82F6;
+    color: white;
+    float: right;
+  }
+
+ /* Targeted styling for just bot messages */
+  .bot-reply {
+    text-align: left;
+    background: #E5E7EB;
+    margin-top: 1rem;
+    float: left;
+    color: black;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the input area */
+  #inputArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 5%;
+    padding: 1rem;
+    background-color: #F3F4F6;
+  }
+  
+  /* Style the text input */
+  #userInput {
+    height: 10px;
+    width: 75%;
+    background-color: white;
+    border-radius: 6px;
+    padding: 0.75rem;
+    font-size: .75rem;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+/* Style send button */
+#send {
+    height:40px;
+    padding-top: 0px;
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    color: white;
+    background: #3B82F6;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #confg {
+    height:40px;
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    color: white;
+    background: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    margin-right: 50px;
+  }
+  
+  #logosend{
+    padding-top: 9px;
+  }
+  
+  #contenedor-gif{
+    width: 40%;
+  }
+  
+  #contenedor-text{
+    width: 60%;
+    height: auto;
+  }
+
+  #btn-chatbox{
+      width: 40%;
+  }
